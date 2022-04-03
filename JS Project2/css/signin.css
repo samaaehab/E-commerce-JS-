@@ -1,0 +1,225 @@
+/* Full-width input fields */
+input[type=text],
+input[type=password],
+input[type=emailz]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.signin{
+    color: black;
+    padding: 10px 20px;
+    margin-top: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+   
+    display: inlne-block;
+    border: 2px solid #e71247;
+    border-radius: 4rem;
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out;
+}
+.signin2{
+    color: black;
+    padding: 10px 20px;
+    margin-top: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    display: inlne-block;
+    border: 2px solid #e71247;
+    border-radius: 4rem;
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out;
+}
+
+.signin2:hover{
+    background-color: #DC143C;
+    color: white;
+}
+button:hover {
+    background-color: #DC143C;
+    color: white;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    width: auto;
+    padding: 10px 28px;
+    background-color: red;
+    color: black;
+    text-align: center;
+    display: inlne-block;
+    border: 2px solid #e71247;
+    border-radius: 4rem;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+#id01{
+    width: 100%;
+   padding-left: 400px;
+   padding-right: 400px;
+   padding-top: 100px;
+
+
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+
+}
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+    font-size: 12px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    color: black;
+    padding: 10px 20px;
+    margin-top: 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: Helvetica, sans-serif;
+    display: inlne-block;
+    border: 2px solid #e71247;
+    border-radius: 4rem;
+    text-transform: uppercase;
+    transition: all 300ms ease-in-out;
+}
+
+.close:hover .close:focus {
+    color: #e71247;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn {
+        width: 100%;
+    }
+}
+small {
+    display: none;
+  }
+  p.red {
+    color: red;
+    font-size: 15px;
+  }
+  .warning {
+    border: 1.5px solid red;
+  }
+  .sucess {
+    border: 1.5px solid green;
+  }
+   /* #username_error
+{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+} */
+.error {
+    color: red;
+    font-size: 90%;
+}

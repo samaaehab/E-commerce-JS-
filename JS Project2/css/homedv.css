@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#topHeader {
+    background-color: #3e3e3e;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#topHeader a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#fixedHeader {
+    background-color: #ffffff;
+    height: 100px;
+    font-size: 18px;
+    width: 100%;
+}
+
+#logo {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+
+#title{
+    padding-top: 5px;
+    height: 70px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+}
+.p1>a{
+    color: white;
+    text-decoration: none;
+}
+.p1>a:hover{
+    
+    color: black;
+}
+#lft{
+    padding-top: 10px;
+    width: 25%;
+    height: 600px;
+    background-color: #f8f9fa;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-radius: 10px;
+    float: left;
+    color: rgb(82, 80, 80);
+}
+.div3{
+    margin-left: 20px;
+    width: 300px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.div3>img{
+    float: left;
+    width: 130px;
+    height: 150px;
+}
+.div3>.divl{
+    margin-top: 20px;
+    float: left;
+    margin-left: 20px;
+}
+.hr2{
+    width: 130px;
+}
+#rgt{
+    width: 65%;
+    height: auto;
+    background-color: rgb(255, 253, 253);
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+.div1{
+    width: 200px;
+    height: 330px;
+    background-color: rgb(253, 253, 253);
+    margin-left: 10px;
+    margin-top: 5px;
+    float: left;
+    margin-bottom: 20PX;
+
+}
+.div1>img{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+
+}
+.p2{
+    color: rgb(112, 109, 109);
+}
+hr{
+    width: 80%;
+    text-align: center;
+}
+/* .icn:hover{
+color: red;
+} */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    font-size: 18px;
+    color: lightcoral;
+}
+
+footer li {
+    list-style: none;
+}
+
+.icons img {
+    margin: 8px;
+}
+
+.icons img:hover {
+    height: 35px;
+    width: 35px;
+    opacity: 0.8;
+}
+
+ul {
+    padding: 5px;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-left: 12%;
+}
+
+.icons-payment img {
+    margin: 8px;
+}
+
+.icons-payment img:hover {
+    height: 45px;
+    width: 65px;
+    opacity: 0.8;
+}
+
+.container-fluid {
+    padding: 0;
+}

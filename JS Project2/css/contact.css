@@ -1,0 +1,104 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Josefin Sans", sans-serif;
+
+  font-family: "Outfit", sans-serif;
+
+  font-family: "Roboto", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+/*Nav*/
+.cont-nav {
+  background-color: #191919;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #fcffff;
+}
+.cont-nav h4 {
+  font-weight: bolder;
+}
+.cont-nav a {
+  text-decoration: none;
+  color: #fcffff;
+}
+
+/*main*/
+.contant {
+  display: flex;
+
+  padding: 7%;
+}
+.contant h4 {
+  color: #4d5959;
+  font-weight: bolder;
+}
+
+.cont-left {
+  width: 50%;
+}
+.cont-left label {
+  color: #b1acac;
+  font-weight: bold;
+}
+.cont-left input {
+  width: 90%;
+  height: 40px;
+  border: 1px solid #cfcbcb;
+}
+textarea {
+  width: 90%;
+  border: 1px solid #cfcbcb;
+}
+input[type="submit"] {
+  background-color: #000000;
+  color: #fcffff;
+  font-size: small;
+}
+input[type="submit"]:hover {
+  background-color: #333333;
+  color: #fcffff;
+  font-size: small;
+}
+
+.cont-right {
+  width: 50%;
+}
+.cont-right p {
+  color: #b1acac;
+}
+
+.cont-right h6 a {
+  text-decoration: none;
+  color: black;
+}
+.num1 {
+  border-radius: 7px;
+  width: 30%;
+  text-align: center;
+  height: 30px;
+  padding-top: 0.5%;
+  border: 1px solid #cfcbcb;
+  margin-bottom: 2%;
+}
+.num1 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.num2 a {
+  text-decoration: none;
+  color: #000000;
+}
+.num2 {
+  border-radius: 7px;
+  width: 30%;
+  text-align: center;
+  height: 30px;
+  padding-top: 0.5%;
+  border: 1px solid #cfcbcb;
+  margin-bottom: 2%;
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/phoneStyle.css">
+    <link rel="stylesheet" href="./css/signin.css">
+    <link rel="stylesheet" type="text/css" href="https://demo.plantpot.works/assets/css/normalize.css">
+    <link rel="stylesheet" href="https://use.typekit.net/opg3wle.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>SIGN IN</title>
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <div id="topHeader">
+                <a href="#"><i class="fab fa-facebook ms-4"></i></a>
+                <a href="#"><i class="fab fa-instagram ms-2"></i></a>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="fixedHeader">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-4 me-4" href="#" id="logo">myShop</a>
+                    <div class="collapse navbar-collapse">
+                        <ul id="navList" class="navbar-nav ms-5">
+                            <li class="nav-item ms-4"><a href="myShop-home.html" class="nav-link">Home</a></li>
+                            <li class="nav-item ms-4"><a href="#" class="nav-link">Women</a></li>
+                            <li class="nav-item ms-4"><a href="#" class="nav-link">Men</a></li>
+                            <li class="nav-item ms-4 active"><a href="#" class="nav-link active">Electronic
+                                    Devices</a></li>
+                            <li class="nav-item ms-4 "><a href="#" class="nav-link ">Electric
+                                    Devices</a></li>
+                            <li class="nav-item ms-4 me-5"><a href="./contactus.html" target="_blank" class="nav-link">Contact Us</a>
+                            </li>
+                            <div id="navbar">
+                                <button class="signin" onclick="document.getElementById('id01').style.display='block'" style="width:auto; margin-right: 20px; float:right;">Sign in</button>
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <br><br><br><br><br><br>
+    <div class="offer">
+        <h1>
+            <span class="color">SIGN IN</span>
+        </h1>
+        <img name="slide" style=" text-align: center;" />
+    </div>
+
+    <div id="id01" class="modal">
+        <form class="modal-content animate" action="#" onsubmit="return verifyPassword()">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+            </div>
+            <div class="container">
+                <div class="formControl">
+                    <label> User Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter user name">
+                    <small>
+                        <p id="message2" class="red">Invalid UserName</p>
+                    </small>
+                </div>
+                <div class="formControl">
+                    <label for="email">Email</label><br>
+                    <input type="text" placeholder="Enter Email" name="email" id="email"><br>
+                    <small>
+                        <p class="red">Invalid Email</p>
+                    </small>
+                </div>
+                <div class="formControl">
+                    <label for="password">Password</label><br>
+                    <input type="password" name="password" placeholder="Enter Passoword" id="pswd"><br>
+                    <span id="message" style="color:red"> </span> <br><br>
+                    <input type="submit" id='submit' class="signin2" value="Sign in">
+
+                </div>
+
+            </div>
+            <div class="container">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    <footer class="container-fluid" style="padding-top: 200px;">
+        <div class="row" style="background-color: rgb(17, 17, 17);">
+            <div class="offset-1 col-md-2 mt-4">
+                <img src="images/—Pngtree—north face clothing logo vector_2261951.png" alt="" height="200px" width="200px">
+            </div>
+            <div class="col-md-3 mt-4">
+                <ul>
+                    <li>
+                        <h2 class="text-light text" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                            Fashion</h2>
+                    </li>
+                    <li>
+                        <a href="./myShop-home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./men.html">Men Fashion</a>
+                    </li>
+                    <li>
+                        <a href="./alaaproject.html">Women Fashion</a>
+                    </li>
+                    <li>
+                        <a href="./homedv.html">Electric devices</a>
+                    </li>
+                    <li>
+                        <a href="./phone.html">Electronic devices</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-4">
+                <h2 class="text-light text" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    Help & Support</h2>
+                <div class="d-flex icons ">
+                    <img src="images/facebook.png" alt="facebook" width="30px" height="30px">
+                    <img src="images/twitter.png" alt="twitter" width="30px" height="30px">
+                    <img src="images/instagram.png" alt="instegram" width="30px" height="30px">
+                    <img src="images/whatsapp.png" alt="whatsapp" width="30px" height="30px">
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 mt-4">
+                <h3 class="text-light text" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                    Payment Methods</h3>
+                <div class="d-flex icons">
+                    <img src="images/debit-card.png" alt="facebook" width="40px" height="40px">
+                    <img src="images/cashless-payment.png" alt="twitter" width="40px" height="40px">
+                    <img src="images/money.png" alt="facebook" width="40px" height="40px">
+                </div>
+                <div class="d-flex icons-payment">
+                    <img src="images/visa.png" alt="facebook" width="60px" height="40px">
+                    <img src="images/paypal.png" alt="twitter" width="60px" height="40px">
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12 dark">
+                <p> Copyright 2021 &COPY; This Footer developed with <i class="fas fa-heart text-danger"></i> by H.Sonbol </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="./js/phone.js">
+    </script>
+</body>
+
+</html>

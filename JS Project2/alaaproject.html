@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Women</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/1e8cfb09f8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <script src="https://kit.fontawesome.com/1e8cfb09f8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/women.css">
+</head>
+
+<body>
+  <!-- ************myHeader***************** -->
+  <div id="header">
+    <div id="topHeader">
+      <a href="#"><i class="fab fa-facebook ms-4"></i></a>
+      <a href="#"><i class="fab fa-instagram ms-2"></i></a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="fixedHeader">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-4 me-4" href="./myShop-home.html" id="logo">myShop</a>
+        <div class="collapse navbar-collapse">
+          <ul id="navList" class="navbar-nav ms-5">
+            <li class="nav-item ms-4"><a href="./myShop-home.html" class="nav-link">Home</a></li>
+            <li class="nav-item ms-4 active"><a href="./alaaproject.html" class="nav-link active">Women</a></li>
+            <li class="nav-item ms-4"><a href="./men.html" class="nav-link">Men</a></li>
+            <li class="nav-item ms-4"><a href="./phone.html" class="nav-link">Electronic Devices</a></li>
+            <li class="nav-item ms-4"><a href="./homedv.html" class="nav-link">Electric Devices</a></li>
+            <li class="nav-item ms-4 me-5"><a href="./contactus.html" class="nav-link">Contact Us</a></li>
+            <li class="nav-item ms-5 ">
+              <a href="" class="nav-link"><i class="fas fa-search"></i></a>
+            </li>
+            <li class="nav-item dropdown ms-4">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <i class="fas fa-user"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./sigin.html">Sign in</a></li>
+                <li><a class="dropdown-item" href="./register.html">Register</a></li>
+              </ul>
+            </li>
+            <li class="nav-item ms-4">
+              <a href="./fav.html" class="nav-link"><i class="far fa-heart"></i></a>
+            </li>
+            <li class="nav-item ms-4">
+              <a href="./cart.html" class="nav-link"><i class="fas fa-cart-plus"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- ***********endOfHeader************ -->
+
+
+
+  <!--  Cateagory page for Fashion -->
+  <br><br><br><br><br><br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div id="womancard1" class="col-lg-4">
+        <div class="card"style="width:400px" >
+          <img class="card-img-top" src="./images/alaa1.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">BALLOON SLEEVE KNIT SWEATER – BEIGE</h4>
+            <p class="card-text text-secondary">399 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link " id="fav1" onclick="favChange('fav1','womancard1','BALLOONFav')"><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link " id="cart1" onclick="cartChange('cart1','womancard1','BALLOONCart')"><i class="fas fa-cart-plus car" id></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" id="womancard2">
+        <div class="card" style="width:400px"id="cart">
+          <img class="card-img-top" src="./images/2.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">PLAID WOOL VET – BEIGE SWEATER – BEIGE </h4>
+            <p class="card-text text-secondary">875 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link " id="fav2" onclick="favChange('fav2','womancard2','PLAIDFav')"><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link " id="cart2" onclick="cartChange('cart2','womancard2','PLAIDCart')"><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" id="womancard3">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/3.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">BOYFRIEND HOODIE-GREY SWEATER – BEIGE</h4>
+            <p class="card-text text-secondary">445 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link " id="fav3" onclick="favChange('fav3','womancard3','BOYFRIENDFav')"><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link " id="cart3" onclick="cartChange('cart3','womancard3','BOYFRIENDCart')"><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4" id="womancard4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/4.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">MID RISE WIDE LEG JEANS-BLUE – RED </h4>
+            <p class="card-text text-secondary">654 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link " id="fav4" onclick="favChange('fav4','womancard4','MIDFav')"><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link "id="cart4" onclick="cartChange('cart4','womancard4','MIDCart')"><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" id="womancard5">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/5.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary ">KNIT CAPE AND TANK SET – BLACK</h4>
+            <p class="card-text text-secondary">123 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link " id="fav5" onclick="favChange('fav5','womancard5','KNITFav')"><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link " id="cart5" onclick="cartChange('cart5','womancard5','KNITCart')"><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" id="womancard6">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/6.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">MULTI COLOR BLOCK KNIT SWEATER – RED</h4>
+            <p class="card-text text-secondary">986 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link " id="fav6" onclick="favChange('fav6','womancard6','MULTIFav')"><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link " id="cart6" onclick="cartChange('cart6','womancard6','MULTICart')"><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br>
+  <div class="container" >
+    <div class="row">
+      <div class="col-lg-4" id="womancard7">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/7.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">VELVET WRAP DRESS – BLUSH</h4>
+            <p class="card-text text-secondary">488 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link " id="fav7" onclick="favChange('fav7','womancard7','VELVETFav')"><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link " id="cart7" onclick="cartChange('cart7','womancard7','VELVETCart')"><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4" id="womancard8">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/8.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">EASY JOGGER PANTS – BEIGE</h4>
+            <p class="card-text text-secondary">687 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link " id="fav8" onclick="favChange('fav8','womancard8','EASYFav')"><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link " id="cart8" onclick="cartChange('cart8','womancard8','EASYCart')"><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/9.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">OVERSIZED CABLE KNIT </h4>
+            <p class="card-text text-secondary">500 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link "><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link "><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/10.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">BALLOON SLEEVE KNIT SWEATER – BEIGE</h4>
+            <p class="card-text text-secondary">279 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link "><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link "><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/11.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">BALLOON SLEEVE KNIT SWEATER – BEIGE</h4>
+            <p class="card-text text-secondary">500 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link "><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link "><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width:400px">
+          <img class="card-img-top" src="./images/12.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title text-secondary">BALLOON SLEEVE KNIT SWEATER – BEIGE</h4>
+            <p class="card-text text-secondary">299 EGP</p>
+
+            <div class="row ">
+              <div class="col-lg-1">
+                <a href="" class="nav-link "><i class="far fa-heart"></i></a>
+              </div>
+              <div class="col-lg-11">
+                <a href="" class="nav-link "><i class="fas fa-cart-plus car"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <div class="row" style="background-color: rgb(17, 17, 17);">
+      <div class="offset-1 col-md-2 mt-4">
+        <img src="images/—Pngtree—north face clothing logo vector_2261951.png" alt="" height="200px" width="200px">
+      </div>
+      <div class="col-md-3 mt-4">
+        <ul>
+          <li>
+            <h2 class="text-light text"
+              style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+              Fashion</h2>
+          </li>
+          <li>
+            <a href="./myShop-home.html">Home</a>
+          </li>
+          <li>
+            <a href="./men.html">Men Fashion</a>
+          </li>
+          <li>
+            <a href="./alaaproject.html">Women Fashion</a>
+          </li>
+          <li>
+            <a href="./homedv.html">Electric devices</a>
+          </li>
+          <li>
+            <a href="./phone.html">Electronic devices</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-3 mt-4">
+        <h2 class="text-light text"
+          style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+          Help & Support</h2>
+        <div class="d-flex icons ">
+          <img src="images/facebook.png" alt="facebook" width="30px" height="30px">
+          <img src="images/twitter.png" alt="twitter" width="30px" height="30px">
+          <img src="images/instagram.png" alt="instegram" width="30px" height="30px">
+          <img src="images/whatsapp.png" alt="whatsapp" width="30px" height="30px">
+        </div>
+        <ul>
+          <li>
+            <a href="#">Help</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-3 mt-4">
+        <h3 class="text-light text"
+          style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+          Payment Methods</h3>
+        <div class="d-flex icons">
+          <img src="images/debit-card.png" alt="facebook" width="40px" height="40px">
+          <img src="images/cashless-payment.png" alt="twitter" width="40px" height="40px">
+          <img src="images/money.png" alt="facebook" width="40px" height="40px">
+        </div>
+        <div class="d-flex icons-payment">
+          <img src="images/visa.png" alt="facebook" width="60px" height="40px">
+          <img src="images/paypal.png" alt="twitter" width="60px" height="40px">
+        </div>
+      </div>
+
+    </div>
+    <div class="row">
+      <div class="col-md-12 dark">
+        <p> Copyright 2021 &COPY; This Footer developed with <i class="fas fa-heart text-danger"></i> by H.Sonbol </p>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="./js/woman.js"></script>
+    
+
+</body>
+
+</html>

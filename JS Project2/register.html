@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+        
+        form {
+            border: 1px solid black;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="men.css">
+</head>
+
+<body>
+
+
+
+    <div id="header">
+        <div id="topHeader">
+            <a href="#"><i class="fab fa-facebook ms-4"></i></a>
+            <a href="#"><i class="fab fa-instagram ms-2"></i></a>
+        </div>
+
+        <!-- please make your list item active here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="fixedHeader">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-4 me-4" href="./myShop-home.html" id="logo">myShop</a>
+                <div class="collapse navbar-collapse">
+                    <ul id="navList" class="navbar-nav ms-5">
+                        <!-- DO NOT FORGET removing active class from home-->
+                        <li class="nav-item ms-4"><a href="./myShop-home.html" class="nav-link ">Home</a></li>
+                        <li class="nav-item ms-4"><a href="./alaaproject.html" class="nav-link">Women</a></li>
+                        <li class="nav-item ms-4 "><a href="./men.html" class="nav-link ">Men</a></li>
+                        <li class="nav-item ms-4"><a href="./phone.html" class="nav-link">Electronic Devices</a></li>
+                        <li class="nav-item ms-4"><a href="./homedv.html" class="nav-link">Electric Devices</a></li>
+                        <li class="nav-item ms-4 me-5"><a href="./contactus.html" class="nav-link">Contact Us</a></li>
+                        <li class="nav-item ms-5 ">
+                            <a href="" class="nav-link"><i class="fas fa-search"></i></a>
+                        </li>
+                        <li class="nav-item dropdown ms-4">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-user active"></i>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="./sigin.html">Sign in</a></li>
+                                <li><a class="dropdown-item" href="./register.html">Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item ms-4">
+                            <a href="./fav.html" class="nav-link"><i class="far fa-heart"></i></a>
+                        </li>
+                        <li class="nav-item ms-4">
+                            <a href="./cart.html" class="nav-link"><i class="fas fa-cart-plus"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- ***********endOfHeader************ -->
+    <br><br><br><br> <br><br>
+
+
+    <!-- Your page Here -->
+    <div class=" container divform m-auto row  col-lg-4  col-sm-12 pt-5 mt-5">
+
+        <div id="display" class="container  mt-2 alert alert-success" role="alert" style="display:none;">
+            !Success your registar
+        </div>
+        <div id="display2" class="container  mt-2 alert alert-danger" role="alert" style="display:none;">
+            !notValid
+        </div>
+        <div class="m-auto mb-2 text-center">
+            <img src="./images/fashion.jpg" alt="Logo" style="width:160px;" class="rounded-pill">
+        </div>
+
+        <form class=" needs-validation " action="myShop-home.html" novalidate>
+            <div class=" position-relative  ">
+                <label for="fname" class="form-label">First name</label>
+                <input type="text" class="form-control" id="fname" placeholder="First Name">
+                <div id="fnameid" class="invalid-tooltip">
+                    Please insert a first name
+                </div>
+            </div>
+            <div class=" position-relative">
+                <label for="lname" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lname" placeholder="Last Name">
+                <div id="lnameid" class="invalid-tooltip">
+                    Please insert a last name
+                </div>
+            </div>
+            <div class="position-relative  ">
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="a">@</span>
+                    <input type="text" class="form-control" id="email" placeholder="E-mail" aria-describedby="validationTooltipUsernamePrepend" required>
+                    <div id="emailid" class="invalid-tooltip">
+                        Please choose a unique and valid Email.
+                    </div>
+                </div>
+            </div>
+            <div class=" position-relative  ">
+                <label for="city" class="form-label">City</label>
+                <input type="text" class="form-control" placeholder="Your City" id="city">
+                <div id="cityid" class="invalid-tooltip">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class=" position-relative  ">
+                <label for="state" class="form-label">State</label>
+                <select class="form-select" id="state" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option value="Arish">Arish</option>
+                  <option value="Cairo">Cairo</option>
+                  <option value="sohag">sohag</option>
+                  <option value="Gharbia">Gharbia</option>
+                  <option value="Sharkia">Sharkia</option>
+                  <option value="Dakahlia">Dakahlia</option>
+
+        </select>
+                <div class=" position-relative  ">
+                    <label for="gender" class="form-label">Gender</label>
+                    <select class="form-select" id="gender" required>
+                      <option selected disabled value="">Choose...</option>
+                       <option value="Female">Female</option>
+                      <option value="Male">Male</option>
+
+          </select>
+                    <div class="invalid-tooltip">
+                        Please select a valid state.
+                    </div>
+                </div>
+                <div class=" position-relative ">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control" id="phone" placeholder="Your Mobile">
+                    <div id="phoneid" class="invalid-tooltip">
+                        Please provide a valid Phone Number (not empty and 11 number).
+                    </div>
+                </div>
+                <br>
+                <div class="col-12">
+                    <button class="btn btn-info" type="submit" onclick="validate(event)">Register Now !</button>
+                </div>
+        </form>
+        </div>
+
+    </div>
+    <br><br><br>
+
+
+    <!-- footer start -->
+
+    <footer class="container-fluid">
+        <div class="row" style="background-color: rgb(17, 17, 17);">
+            <div class="offset-1 col-md-2 mt-4">
+                <img src="images/—Pngtree—north face clothing logo vector_2261951.png" alt="" height="200px" width="200px">
+            </div>
+            <div class="col-md-3 mt-4">
+                <ul>
+                    <li>
+                        <h2 class="text-light text" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Fashion</h2>
+                    </li>
+                    <li>
+                        <a href="./myShop-home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./men.html">Men Fashion</a>
+                    </li>
+                    <li>
+                        <a href="./alaaproject.html">Women Fashion</a>
+                    </li>
+                    <li>
+                        <a href="./homedv.html">Electric devices</a>
+                    </li>
+                    <li>
+                        <a href="./phone.html">Electronic devices</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 mt-4">
+                <h2 class="text-light text" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Help & Support</h2>
+                <div class="d-flex icons ">
+                    <img src="images/facebook.png" alt="facebook" width="30px" height="30px">
+                    <img src="images/twitter.png" alt="twitter" width="30px" height="30px">
+                    <img src="images/instagram.png" alt="instegram" width="30px" height="30px">
+                    <img src="images/whatsapp.png" alt="whatsapp" width="30px" height="30px">
+                </div>
+                <ul>
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="col-md-3 mt-4">
+                <h3 class="text-light text" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Payment Methods</h3>
+                <div class="d-flex icons">
+                    <img src="images/debit-card.png" alt="facebook" width="40px" height="40px">
+                    <img src="images/cashless-payment.png" alt="twitter" width="40px" height="40px">
+                    <img src="images/money.png" alt="facebook" width="40px" height="40px">
+                </div>
+                <div class="d-flex icons-payment">
+                    <img src="images/visa.png" alt="facebook" width="60px" height="40px">
+                    <img src="images/paypal.png" alt="twitter" width="60px" height="40px">
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-12 dark">
+                <p> Copyright 2021 &COPY; This Footer developed with <i class="fas fa-heart text-danger"></i> by H.Sonbol </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/register.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+
+</body>
+
+</html>
